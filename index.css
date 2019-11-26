@@ -1,0 +1,41 @@
+
+    body{
+        background-image: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    img {
+        border-radius: 30px;
+    }
+
+   .nav-item {
+       border: 0;
+   }
+   .nav-item:hover {
+       border: 1px solid red;
+   }
+
+   video {
+       margin-top: 80px;
+   }
+
+   .comin {
+       color: white;
+       font-size: 24px;
+       text-align: center;
+       font-style: italic;
+   }
+
+   .tittle {
+       font-size: 17px;
+       color: aqua;
+       text-align: center;
+   }
+
+
+   .brief {
+       font-size: 15px;
+       color: aquamarine;
+       text-align: center;
+       font-style: italic;
+   }
