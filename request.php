@@ -2,7 +2,7 @@
 $id = $_POST['email'];
 $password = $_POST['password'];
 
-$connection = mysqli_connect("localhost","root","root","cinema_db");
+$connection = mysqli_connect("localhost","root","","cinema_db");
 $pass_word =  mysqli_query($connection, "SELECT * from user_tb where email = '$id'");
 $passCheck = mysqli_fetch_array($pass_word);
 $pass = $passCheck['password'];

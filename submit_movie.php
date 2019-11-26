@@ -12,7 +12,7 @@
     $ln = $_POST['little_about_the_movie'];
     
 
-    $connection = mysqli_connect("localhost","root","root","cinema_db");
+    $connection = mysqli_connect("localhost","root","","cinema_db");
 
     if(move_uploaded_file($temp, $file)) {
         $insert = mysqli_query($connection, "INSERT into movie_tb ( name, duration, little, content) 

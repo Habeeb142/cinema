@@ -1,5 +1,5 @@
 <?php 
-    $connection = mysqli_connect("localhost","root","root","cinema_db");
+    $connection = mysqli_connect("localhost","root","","cinema_db");
     $word =  mysqli_query($connection, "SELECT * from movie_tb");
     $check = mysqli_fetch_all($word, MYSQLI_ASSOC);
 

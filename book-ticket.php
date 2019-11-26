@@ -6,7 +6,7 @@ if(isset($_SESSION['email'])){
     $fn = $_SESSION['fullname'];
     
 
-    $connection = mysqli_connect("localhost","root","root","cinema_db");
+    $connection = mysqli_connect("localhost","root","","cinema_db");
 
         $insert = mysqli_query($connection, "INSERT into book_ticket_tb(fullname, tittle) 
         values ('$fn','$movieTittle')");

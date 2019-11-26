@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
     $em = $_POST['email'];
     
 
-    $connection = mysqli_connect("localhost","root","root","cinema_db");
+    $connection = mysqli_connect("localhost","root","","cinema_db");
 
     if($cp == $pwd) {
         $insert = mysqli_query($connection, "INSERT into user_tb(fullname, password, email) 

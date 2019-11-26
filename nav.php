@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="bar" >
         <ul class="navbar-nav">
             <li class="nav-item mr-3">
-              <a href="index.php" class="nav-link" style="font-size: 15pt"><i class="fa fa-home"></i> Home</a>
+              <a href="index.php" class="nav-link" style="font-size: 15pt"> Home</a>
             </li>
             <li class="nav-item mr-3">
               <a href="admin.php" class="nav-link" style="font-size: 15pt"><i class="mr-1 fa fa-user"></i>Admin</a>
